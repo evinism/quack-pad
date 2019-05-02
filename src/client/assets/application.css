@@ -3,7 +3,7 @@ html {
 }
 body {
   height: 100%;
-  background-color: #2327362a;
+  background-color: #12141c;
   display: flex;
   overflow: hidden;
   font-family: Courier New;
@@ -12,6 +12,7 @@ body {
 body::after {
   content: "";
   background: url("duck.jpg");
+  opacity: 0.2;
   top: 0;
   left: 0;
   bottom: 0;
