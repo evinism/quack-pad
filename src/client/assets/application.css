@@ -3,11 +3,21 @@ html {
 }
 body {
   height: 100%;
-  background-color: #12141c;
+  background-color: #2327362a;
   display: flex;
   overflow: hidden;
   font-family: Courier New;
-  background-image: url("duck.jpg");
+}
+
+body::after {
+  content: "";
+  background: url("duck.jpg");
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 
 textarea {
