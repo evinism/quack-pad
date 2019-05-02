@@ -12,7 +12,7 @@ module.exports = ({
   interactionStyle = 'readOnly',
   content,
   noteId,
-  title = 'quick-pad'
+  title = 'QUACK-pad'
 }) => `
 <!DOCTYPE html>
 <html>
