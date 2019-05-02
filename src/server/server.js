@@ -17,7 +17,7 @@ function run() {
   app.set('port', (process.env.PORT || 8080));
 
   if (process.env.NODE_ENV === 'production') {
-    app.use(enforce.HTTPS({ trustProtoHeader: true }));
+    //app.use(enforce.HTTPS({ trustProtoHeader: true }));
   }
 
   app.use(bodyParser.json());
