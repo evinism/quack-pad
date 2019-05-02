@@ -60,7 +60,7 @@ function configureRoutes(app){
         recall(id).then(
           content => response.send(renderClient({
             content: content,
-            title: 'quick-pad: note',
+            title: 'QUACK-pad: note',
             noteId: id,
             interactionStyle: 'editable',
           }))
@@ -68,7 +68,7 @@ function configureRoutes(app){
       ) : (
         response.status(404).send(renderClient({
           content: noteNotFoundText,
-          title: 'quick-pad: note not found',
+          title: 'QUACK-pad: note not found',
         }))
       )
     )
