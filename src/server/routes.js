@@ -15,7 +15,7 @@ DUCKS RUN THE SHOW NOW
 QUACK QUACK QUACK QUACK QUACK
 
    (@_
-\\\_\
+\\\\\\_\\
 <____) 
 `;
 
