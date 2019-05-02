@@ -2,14 +2,21 @@ const { create, persist, recall, exists, destroy, checkStatus } = require('./sto
 const renderClient = require('../client');
 
 const homeScreenText = `
-quick-pad:
-dead-simple collaborative notepad
+quack-pad:
+dead-simple collaborative QUACKpad
 ---
 
-Click (+) or edit this page to create a note.
-Send the link to share.
+Click (+) or edit this page to create QUACKS
+Send the link to QUACK EXCESSIVELY
 
-Notes expire after 30 days of disuse.
+Notes expire after 30 NOT QUACKING SESSIONS.
+
+DUCKS RUN THE SHOW NOW
+QUACK QUACK QUACK QUACK QUACK
+
+   (@_
+\\\_\
+<____) 
 `;
 
 const noteNotFoundText = `
