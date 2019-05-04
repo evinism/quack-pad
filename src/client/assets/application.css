@@ -11,7 +11,7 @@ body {
 
 body::after {
   content: "";
-  background: url("duck.jpg");
+  background: url("/duck.jpg");
   opacity: 0.2;
   top: 0;
   left: 0;
